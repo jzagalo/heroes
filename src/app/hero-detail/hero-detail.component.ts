@@ -30,4 +30,9 @@ export class HeroDetailComponent implements OnInit {
       .subscribe(hero => this.hero = hero);
   }
 
+  save(): void {
+    this.heroService.updateHero(this.hero)
+      .subscribe(() => {});
+  }
+
 }
