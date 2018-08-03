@@ -1,8 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Ubuntu',Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -10,14 +11,14 @@ h1 {
   font-size: 250%;
 }
 
-ul {
+ul.heroes {
   list-style: none;
   width: 250px;
   margin: 20px auto;
   text-align: left;
 }
 
-ul li {
+ul.heroes li {
   margin:10px 0;
 }
 
